@@ -7,7 +7,7 @@ const port = 8000
 const routes = require('./routes')
 
 app.use(express.static(path.join(__dirname,'home')));
-app.use('/sports',express.static(path.join(__dirname,'sports')));
+app.use('/sports/chess',express.static(path.join(__dirname,'sports','chess')));
 
 // To parse the html request
 app.use(

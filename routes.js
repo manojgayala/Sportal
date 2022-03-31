@@ -6,9 +6,8 @@ app.get("/", function(req, res) {
   res.sendFile(dir+'/index.html');
   });
 
-app.get("/sports", function(req, res) {
-    const sport = req.query.name
-    res.sendFile(dir+'/sports/'+sport+'.html');
+app.get("/sports/chess", function(req, res) {
+    res.sendFile(dir+'/sports/chess/chess.html');
 });
 
   module.exports = app;
