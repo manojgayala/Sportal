@@ -7,7 +7,23 @@ const port = 8000
 const routes = require('./routes')
 
 app.use(express.static(path.join(__dirname,'home')));
+
 app.use('/sports/chess',express.static(path.join(__dirname,'sports','chess')));
+app.use('/sports/wrestling',express.static(path.join(__dirname,'sports','wrestling')));
+app.use('/sports/badmintion',express.static(path.join(__dirname,'sports','badmintion')));
+app.use('/sports/cricket',express.static(path.join(__dirname,'sports','cricket')));
+app.use('/sports/volleyball',express.static(path.join(__dirname,'sports','volleyball')));
+app.use('/sports/hockey',express.static(path.join(__dirname,'sports','hockey')));
+app.use('/sports/swimming',express.static(path.join(__dirname,'sports','swimming')));
+app.use('/sports/kabaddi',express.static(path.join(__dirname,'sports','kabaddi')));
+app.use('/sports/javelin_throw',express.static(path.join(__dirname,'sports','javelin_throw')));
+app.use('/sports/athletics',express.static(path.join(__dirname,'sports','athletics')));
+app.use('/sports/archery',express.static(path.join(__dirname,'sports','archery')));
+app.use('/sports/table_tennis',express.static(path.join(__dirname,'sports','table_tennis')));
+app.use('/sports/weight_lifting',express.static(path.join(__dirname,'sports','weight_lifting')));
+app.use('/sports/basketball',express.static(path.join(__dirname,'sports','basketball')));
+app.use('/sports/football',express.static(path.join(__dirname,'sports','football')));
+app.use('/sports/boxing',express.static(path.join(__dirname,'sports','boxing')));
 
 // To parse the html request
 app.use(
