@@ -10,7 +10,7 @@ app.use(express.static(path.join(__dirname,'home')));
 
 app.use('/sports/chess',express.static(path.join(__dirname,'sports','chess')));
 app.use('/sports/wrestling',express.static(path.join(__dirname,'sports','wrestling')));
-app.use('/sports/badmintion',express.static(path.join(__dirname,'sports','badmintion')));
+app.use('/sports/badminton',express.static(path.join(__dirname,'sports','badminton')));
 app.use('/sports/cricket',express.static(path.join(__dirname,'sports','cricket')));
 app.use('/sports/volleyball',express.static(path.join(__dirname,'sports','volleyball')));
 app.use('/sports/hockey',express.static(path.join(__dirname,'sports','hockey')));
