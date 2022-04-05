@@ -14,8 +14,8 @@ app.get("/sports/wrestling", function(req, res) {
     res.sendFile(dir+'/sports/wrestling/wrestling.html');
 });
 
-app.get("/sports/badmintion", function(req, res) {
-    res.sendFile(dir+'/sports/badmintion/badmintion.html');
+app.get("/sports/badminton", function(req, res) {
+    res.sendFile(dir+'/sports/badminton/badminton.html');
 });
 
 app.get("/sports/cricket", function(req, res) {
